@@ -1,0 +1,21 @@
+2023-09-10 10:02:44.695 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m51s924ms69µs800ns).
+2023-09-10 10:04:30.042 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s340ms212µs200ns).
+2023-09-10 10:06:00.401 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s374ms197µs400ns).
+2023-09-10 10:45:06.046 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-10 10:45:06.568 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authInterceptor': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zhu.userapi.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+2023-09-10 11:10:47.594 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s322ms189µs200ns).
+2023-09-10 11:12:39.272 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m51s678ms58µs600ns).
+2023-09-10 11:14:12.163 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m661ms896µs700ns).
+2023-09-10 11:30:43.620 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m1s448ms582µs500ns).
+2023-09-10 14:21:15.650 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s853ms650µs100ns).
+2023-09-10 14:24:04.429 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s746ms870µs600ns).
+2023-09-10 14:25:13.337 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m8s908ms73µs700ns).

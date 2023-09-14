@@ -1,0 +1,65 @@
+2023-09-01 10:01:57.895 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 23420 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-09-01 10:01:57.900 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:01:57.953 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-01 10:01:57.954 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-01 10:01:59.004 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-09-01 10:01:59.005 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-01 10:01:59.005 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-01 10:01:59.005 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-01 10:01:59.009 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-01 10:01:59.019 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-01 10:01:59.019 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-01 10:01:59.019 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-01 10:01:59.088 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-01 10:01:59.088 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 1134 ms
+2023-09-01 10:01:59.769 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-01 10:01:59.784 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-01 10:01:59.801 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-09-01 10:01:59.811 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 2.345 seconds (JVM running for 6.302)
+2023-09-01 10:09:24.196 INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Line:211 - Restarting due to 24 class path changes (0 additions, 23 deletions, 1 modification)
+2023-09-01 10:09:24.220 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Pausing ProtocolHandler ["http-nio-8080"]
+2023-09-01 10:09:24.220 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2023-09-01 10:09:24.226 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Stopping ProtocolHandler ["http-nio-8080"]
+2023-09-01 10:09:24.228 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Destroying ProtocolHandler ["http-nio-8080"]
+2023-09-01 10:09:24.299 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 23420 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-09-01 10:09:24.300 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:09:24.524 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-09-01 10:09:24.524 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-01 10:09:24.525 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-01 10:09:24.525 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-01 10:09:24.525 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-01 10:09:24.526 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-01 10:09:24.527 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-01 10:09:24.527 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-01 10:09:24.543 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-01 10:09:24.544 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 242 ms
+2023-09-01 10:09:24.630 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2023-09-01 10:09:24.634 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-01 10:09:27.135 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 23420 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-09-01 10:09:27.136 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:09:27.344 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-09-01 10:09:27.344 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-01 10:09:27.344 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-01 10:09:27.345 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-01 10:09:27.345 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-01 10:09:27.345 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-01 10:09:27.345 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-01 10:09:27.346 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-01 10:09:27.360 INFO  org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-01 10:09:27.361 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 222 ms
+2023-09-01 10:09:27.521 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-01 10:09:27.527 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-01 10:09:27.530 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-09-01 10:09:27.533 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 0.432 seconds (JVM running for 454.024)
+2023-09-01 10:09:27.534 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2023-09-01 10:09:28.368 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper Line:305 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.zhu.userapi.InterfaceTest], using SpringBootContextLoader
+2023-09-01 10:09:28.374 INFO  org.springframework.test.context.support.AbstractContextLoader Line:264 - Could not detect default resource locations for test class [com.zhu.userapi.InterfaceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-09-01 10:09:28.374 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Line:83  - Could not detect default configuration classes for test class [com.zhu.userapi.InterfaceTest]: InterfaceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-09-01 10:09:28.448 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper Line:238 - Found @SpringBootConfiguration com.zhu.userapi.UserCenterApplication for test class com.zhu.userapi.InterfaceTest
+2023-09-01 10:09:28.522 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper Line:245 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-09-01 10:09:28.536 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper Line:174 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3381b4fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6bea52d4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@11981797, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5c42d2b7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@625abb97, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b1f29fa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@aeab9a1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@40f70521, org.springframework.test.context.event.EventPublishingTestExecutionListener@774698ab, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@55342f40, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@a4ca3f6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@72ea6193, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@31aa3ca5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@45905bff, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2a2c13a8]
+2023-09-01 10:09:28.836 INFO  com.zhu.userapi.InterfaceTest Line:55  - Starting InterfaceTest using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 3488 (started by ZHU in D:\code\userCenter)
+2023-09-01 10:09:28.837 INFO  com.zhu.userapi.InterfaceTest Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:09:30.803 INFO  com.zhu.userapi.InterfaceTest Line:61  - Started InterfaceTest in 2.228 seconds (JVM running for 3.136)

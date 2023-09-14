@@ -1,0 +1,1153 @@
+2023-03-11 15:46:47.017 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 16532 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-03-11 15:46:47.020 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-03-11 15:46:47.060 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-11 15:46:47.060 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-11 15:46:47.835 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-03-11 15:46:47.836 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-03-11 15:46:47.836 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-03-11 15:46:47.836 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-11 15:46:47.838 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-03-11 15:46:47.845 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 15:46:47.845 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-03-11 15:46:47.845 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-11 15:46:47.898 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-03-11 15:46:47.899 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 838 ms
+2023-03-11 15:46:48.458 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-03-11 15:46:48.470 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 15:46:48.487 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-11 15:46:48.496 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 1.795 seconds (JVM running for 2.462)
+2023-03-11 15:46:55.915 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-11 15:46:55.915 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-03-11 15:46:55.916 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-03-11 15:46:56.018 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-03-11 15:46:56.158 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-03-11 15:46:56.183 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 9 msec}
+2023-03-11 15:47:28.753 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:49:06.531 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-03-11 15:49:06.539 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-03-11 15:49:10.704 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 17244 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-03-11 15:49:10.707 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-03-11 15:49:10.748 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-11 15:49:10.749 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-11 15:49:11.545 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-03-11 15:49:11.546 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-03-11 15:49:11.546 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-03-11 15:49:11.546 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-11 15:49:11.549 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-03-11 15:49:11.556 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 15:49:11.556 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-03-11 15:49:11.556 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-11 15:49:11.611 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-03-11 15:49:11.612 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 863 ms
+2023-03-11 15:49:12.173 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-03-11 15:49:12.186 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 15:49:12.204 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-11 15:49:12.213 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 1.824 seconds (JVM running for 2.564)
+2023-03-11 15:49:15.084 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-11 15:49:15.084 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-03-11 15:49:15.085 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-03-11 15:49:15.199 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-03-11 15:49:15.433 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-03-11 15:49:15.469 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 13 msec}
+2023-03-11 15:49:20.596 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu' AND isDelete=0 
+ {executed in 2 msec}
+2023-03-11 15:49:43.998 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:49:49.840 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:49:52.568 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:49:58.086 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 2 msec}
+2023-03-11 15:50:09.047 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:50:41.604 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:50:42.271 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:50:52.432 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='qwer' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:51:15.679 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='qwer' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:51:18.219 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 2 msec}
+2023-03-11 15:51:18.652 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='qwer' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:51:47.552 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='qwer' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:51:49.891 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:51:50.294 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='qwer' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:52:05.199 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='qwer' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:52:20.047 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:53:39.242 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:53:44.575 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:53:52.397 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:53:55.437 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:53:58.819 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:53:59.756 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:54:20.584 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='1' AND userAccount='' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:54:23.255 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='1' AND userAccount='' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:54:29.386 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:54:30.763 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='1' AND userAccount='' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:54:44.898 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='1' AND userAccount='' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:55:09.605 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='1' AND userAccount='' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:56:21.545 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='1' AND userAccount='' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:57:08.805 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='1' AND userAccount='' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:57:14.814 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-03-11 15:57:14.820 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-03-11 15:57:19.114 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 8360 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-03-11 15:57:19.117 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-03-11 15:57:19.169 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-11 15:57:19.169 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-11 15:57:19.984 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-03-11 15:57:19.985 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-03-11 15:57:19.985 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-03-11 15:57:19.985 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-11 15:57:19.988 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-03-11 15:57:19.994 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 15:57:19.995 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-03-11 15:57:19.995 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-11 15:57:20.048 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-03-11 15:57:20.048 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 878 ms
+2023-03-11 15:57:20.613 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-03-11 15:57:20.626 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 15:57:20.642 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-11 15:57:20.650 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 1.914 seconds (JVM running for 2.641)
+2023-03-11 15:57:22.500 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-11 15:57:22.500 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-03-11 15:57:22.501 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-03-11 15:57:22.592 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-03-11 15:57:22.729 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-03-11 15:57:22.768 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='1' AND isDelete=0 
+ {executed in 13 msec}
+2023-03-11 15:57:53.157 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:58:38.957 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-03-11 15:58:38.963 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-03-11 15:58:43.134 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 19524 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-03-11 15:58:43.137 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-03-11 15:58:43.177 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-11 15:58:43.177 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-11 15:58:43.978 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-03-11 15:58:43.979 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-03-11 15:58:43.979 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-03-11 15:58:43.979 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-11 15:58:43.983 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-03-11 15:58:43.991 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 15:58:43.991 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-03-11 15:58:43.991 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-11 15:58:44.045 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-03-11 15:58:44.045 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 868 ms
+2023-03-11 15:58:44.631 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-03-11 15:58:44.644 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 15:58:44.661 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-11 15:58:44.671 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 1.865 seconds (JVM running for 2.595)
+2023-03-11 15:58:56.441 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-11 15:58:56.442 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-03-11 15:58:56.443 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-03-11 15:58:56.535 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-03-11 15:58:56.682 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-03-11 15:58:56.719 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='qwer' AND isDelete=0 
+ {executed in 11 msec}
+2023-03-11 15:59:05.932 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:59:07.388 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:59:09.037 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 15:59:09.337 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:59:13.591 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 15:59:14.743 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:00:07.457 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:00:10.250 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 2 msec}
+2023-03-11 16:00:10.690 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:00:12.011 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:00:12.690 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:00:13.101 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:00:13.464 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:00:14.160 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:00:14.493 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:00:15.258 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:00:15.519 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:00:37.518 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:00:37.884 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:00:55.992 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:01:10.590 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:01:10.607 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 0 msec}
+2023-03-11 16:01:10.981 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:01:14.208 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:01:14.517 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:01:31.445 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:01:31.447 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 0 msec}
+2023-03-11 16:01:31.690 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:05:14.825 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:09:11.837 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-03-11 16:09:11.844 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-03-11 16:09:17.414 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 21760 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-03-11 16:09:17.417 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-03-11 16:09:17.456 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-11 16:09:17.456 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-11 16:09:18.244 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-03-11 16:09:18.245 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-03-11 16:09:18.245 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-03-11 16:09:18.245 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-11 16:09:18.247 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-03-11 16:09:18.254 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 16:09:18.254 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-03-11 16:09:18.255 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-11 16:09:18.308 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-03-11 16:09:18.308 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 851 ms
+2023-03-11 16:09:18.893 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-03-11 16:09:18.906 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 16:09:18.923 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-11 16:09:18.933 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 1.844 seconds (JVM running for 2.553)
+2023-03-11 16:12:25.272 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 2116 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-03-11 16:12:25.275 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-03-11 16:12:25.315 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-11 16:12:25.315 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-11 16:12:26.124 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-03-11 16:12:26.125 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-03-11 16:12:26.125 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-03-11 16:12:26.125 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-11 16:12:26.128 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-03-11 16:12:26.134 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 16:12:26.135 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-03-11 16:12:26.135 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-11 16:12:26.192 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-03-11 16:12:26.192 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 877 ms
+2023-03-11 16:12:26.778 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-03-11 16:12:26.791 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 16:12:26.808 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-11 16:12:26.817 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 1.872 seconds (JVM running for 2.572)
+2023-03-11 16:12:30.363 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-11 16:12:30.363 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-03-11 16:12:30.364 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-03-11 16:12:30.459 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-03-11 16:12:30.594 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-03-11 16:12:30.620 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 10 msec}
+2023-03-11 16:12:40.883 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:12:40.911 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 1 msec}
+2023-03-11 16:12:40.931 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userPassword='2998857702&fm=253&app=120&size=w931&n=0&f=JPEG&fmt=auto?sec=1677603600&t=455d091ed3eb38bf61a72df4b1285a9d', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 14 msec}
+2023-03-11 16:12:41.308 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:13:20.463 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-03-11 16:13:20.470 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-03-11 16:13:24.509 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 20464 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-03-11 16:13:24.512 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-03-11 16:13:24.555 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-11 16:13:24.555 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-11 16:13:25.372 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-03-11 16:13:25.373 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-03-11 16:13:25.373 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-03-11 16:13:25.373 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-11 16:13:25.376 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-03-11 16:13:25.384 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 16:13:25.384 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-03-11 16:13:25.385 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-11 16:13:25.448 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-03-11 16:13:25.448 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 892 ms
+2023-03-11 16:13:26.077 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-03-11 16:13:26.092 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 16:13:26.120 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-11 16:13:26.142 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 1.973 seconds (JVM running for 2.662)
+2023-03-11 16:13:26.197 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-11 16:13:26.197 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-03-11 16:13:26.198 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-03-11 16:13:26.321 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-03-11 16:13:26.474 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-03-11 16:13:26.502 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 9 msec}
+2023-03-11 16:13:28.678 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:13:34.535 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:13:34.555 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 1 msec}
+2023-03-11 16:13:34.564 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 3 msec}
+2023-03-11 16:13:34.933 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:14:03.949 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 2 msec}
+2023-03-11 16:14:09.282 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:14:27.989 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 0 msec}
+2023-03-11 16:14:27.992 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:14:28.746 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:15:04.222 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:15:06.623 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 1 msec}
+2023-03-11 16:15:06.625 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:15:06.746 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:15:35.760 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:16:24.643 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:16:33.888 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:16:33.891 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 1 msec}
+2023-03-11 16:16:33.897 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:16:34.748 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:16:35.112 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:16:42.051 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:16:42.054 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 2 msec}
+2023-03-11 16:16:42.056 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:16:42.301 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:16:52.068 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:16:56.519 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:16:56.522 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 1 msec}
+2023-03-11 16:16:56.523 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:16:56.754 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:17:10.640 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:17:42.272 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:17:43.391 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 2 msec}
+2023-03-11 16:17:46.015 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:17:48.039 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:17:48.438 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:17:50.047 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:17:58.050 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:17:58.052 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 0 msec}
+2023-03-11 16:17:58.054 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:17:58.297 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:18:07.234 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:18:07.239 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 1 msec}
+2023-03-11 16:18:07.250 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 3 msec}
+2023-03-11 16:18:07.647 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:18:48.222 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:18:56.506 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE username='zhu1' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:18:58.425 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:19:03.661 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:19:03.682 INFO  jdbc.sqltiming Line:373 - UPDATE user SET isDelete=1 WHERE id=1632599605947265025 AND isDelete=0 
+ {executed in 16 msec}
+2023-03-11 16:19:03.930 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:19:48.045 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:19:50.856 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:19:50.861 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 2 msec}
+2023-03-11 16:19:50.866 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 2 msec}
+2023-03-11 16:19:51.054 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:19:56.967 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:19:56.970 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 1 msec}
+2023-03-11 16:19:56.973 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:19:57.429 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:20:32.856 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:20:41.835 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:20:41.837 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 0 msec}
+2023-03-11 16:20:41.839 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:20:42.105 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:22:35.391 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:22:52.640 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:32:46.906 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:32:51.591 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:32:51.595 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1622078809659224000) 
+ {executed in 1 msec}
+2023-03-11 16:32:51.598 INFO  jdbc.sqltiming Line:373 - UPDATE user SET username='zhu1', userAccount='12312312', avatarUrl='https://img0.baidu.com/it/u=981218435', 
+userRole=0, userStatus=0, createTime='02/05/2023 11:44:59.000', updateTime='02/05/2023 11:44:59.000' 
+WHERE id=1622078809659224000 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:32:52.045 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:33:08.730 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:33:08.733 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1632642246458028033) 
+ {executed in 1 msec}
+2023-03-11 16:33:08.735 INFO  jdbc.sqltiming Line:373 - UPDATE user SET userAccount='gadfgdsf', userRole=0, userStatus=0, createTime='03/06/2023 15:20:19.000', 
+updateTime='03/06/2023 15:20:19.000' WHERE id=1632642246458028033 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:33:09.137 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:33:20.122 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:33:40.275 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:38:23.400 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:38:31.873 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:38:31.876 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1632641951267106817) 
+ {executed in 1 msec}
+2023-03-11 16:38:31.883 INFO  jdbc.sqltiming Line:373 - UPDATE user SET userAccount='sadfasdf', userRole=0, userStatus=0, createTime='03/06/2023 15:19:08.000', 
+updateTime='03/06/2023 15:19:08.000' WHERE id=1632641951267106817 AND isDelete=0 
+ {executed in 5 msec}
+2023-03-11 16:38:32.287 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:39:16.246 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:39:22.285 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:39:22.288 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1632641951267106817) 
+ {executed in 0 msec}
+2023-03-11 16:39:22.290 INFO  jdbc.sqltiming Line:373 - UPDATE user SET userAccount='sadfasdf', userRole=0, userStatus=0, createTime='03/06/2023 15:19:08.000', 
+updateTime='03/06/2023 15:19:08.000' WHERE id=1632641951267106817 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:39:22.554 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:41:23.499 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:41:28.941 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:41:29.335 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:43:18.210 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:57:31.291 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 4 msec}
+2023-03-11 16:57:33.469 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 16:57:33.908 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 16:59:54.688 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:01:22.587 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:01:22.848 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:03:57.854 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:04:01.898 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:04:02.318 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:04:19.003 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:07:09.640 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:07:22.841 INFO  jdbc.sqltiming Line:373 - SELECT COUNT( * ) FROM user WHERE isDelete=0 AND (userAccount = 'asdfsa') 
+ {executed in 4 msec}
+2023-03-11 17:07:22.843 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:132 - user has existed
+2023-03-11 17:08:07.457 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:08:07.702 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:09:39.990 INFO  jdbc.sqltiming Line:373 - SELECT COUNT( * ) FROM user WHERE isDelete=0 AND (userAccount = 'asdfsa') 
+ {executed in 2 msec}
+2023-03-11 17:09:39.991 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:132 - user has existed
+2023-03-11 17:09:43.655 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:09:52.292 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:09:52.654 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:10:26.906 INFO  jdbc.sqltiming Line:373 - SELECT COUNT( * ) FROM user WHERE isDelete=0 AND (userAccount = '11111') 
+ {executed in 0 msec}
+2023-03-11 17:10:26.924 INFO  jdbc.sqltiming Line:373 - INSERT INTO user ( id, userAccount, userPassword, userRole, userStatus ) VALUES ( 1634481900395237377, 
+'11111', 'b0dd3697a192885d7c055db46155b26a', 0, 1 ) 
+ {executed in 6 msec}
+2023-03-11 17:10:29.169 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:11:14.272 INFO  jdbc.sqltiming Line:373 - SELECT COUNT( * ) FROM user WHERE isDelete=0 AND (userAccount = '111111') 
+ {executed in 0 msec}
+2023-03-11 17:11:14.277 INFO  jdbc.sqltiming Line:373 - INSERT INTO user ( id, userAccount, userPassword, userRole, userStatus ) VALUES ( 1634482099024891906, 
+'111111', 'b0dd3697a192885d7c055db46155b26a', 0, 0 ) 
+ {executed in 3 msec}
+2023-03-11 17:11:15.646 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:13:58.508 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:15:16.837 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 4 msec}
+2023-03-11 17:15:22.769 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:15:22.776 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = NULL) 
+ {executed in 1 msec}
+2023-03-11 17:15:23.208 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:15:53.740 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:15:53.743 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = NULL) 
+ {executed in 1 msec}
+2023-03-11 17:15:54.184 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:16:22.066 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:16:33.037 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-03-11 17:16:33.040 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-03-11 17:16:37.697 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 13336 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-03-11 17:16:37.701 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-03-11 17:16:37.748 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-11 17:16:37.749 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-11 17:16:38.578 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-03-11 17:16:38.579 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-03-11 17:16:38.579 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-03-11 17:16:38.579 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-11 17:16:38.582 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-03-11 17:16:38.592 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 17:16:38.593 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-03-11 17:16:38.593 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-11 17:16:38.648 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-03-11 17:16:38.648 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 899 ms
+2023-03-11 17:16:39.268 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-03-11 17:16:39.283 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 17:16:39.301 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-11 17:16:39.311 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 1.972 seconds (JVM running for 2.801)
+2023-03-11 17:16:46.133 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-11 17:16:46.133 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-03-11 17:16:46.134 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-03-11 17:16:46.235 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-03-11 17:16:46.412 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-03-11 17:16:46.450 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 10 msec}
+2023-03-11 17:17:19.200 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 5 msec}
+2023-03-11 17:17:46.767 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = NULL) 
+ {executed in 1 msec}
+2023-03-11 17:18:03.043 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:18:04.348 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:18:13.914 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 2 msec}
+2023-03-11 17:18:49.404 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = NULL) 
+ {executed in 1 msec}
+2023-03-11 17:19:02.746 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:19:04.782 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:21:11.020 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:21:14.136 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 3116 msec}
+2023-03-11 17:21:16.141 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = NULL) 
+ {executed in 0 msec}
+2023-03-11 17:21:17.844 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 2 msec}
+2023-03-11 17:21:25.831 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:21:25.833 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = NULL) 
+ {executed in 0 msec}
+2023-03-11 17:21:26.743 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:21:53.888 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:21:53.892 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1632641076989603841) 
+ {executed in 1 msec}
+2023-03-11 17:21:59.366 INFO  jdbc.sqltiming Line:373 - UPDATE user SET userAccount='asdfasd', gender=0, userRole=1, userStatus=0, createTime='03/06/2023 
+15:15:40.000', updateTime='03/06/2023 15:15:40.000' WHERE id=1632641076989603841 AND isDelete=0 
+ {executed in 4 msec}
+2023-03-11 17:21:59.736 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:22:13.455 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:22:13.459 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1632641076989603841) 
+ {executed in 1 msec}
+2023-03-11 17:22:13.463 INFO  jdbc.sqltiming Line:373 - UPDATE user SET userAccount='asdfasd', gender=0, userRole=1, userStatus=0, createTime='03/06/2023 
+15:15:40.000', updateTime='03/06/2023 15:15:40.000' WHERE id=1632641076989603841 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:22:13.895 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:23:41.102 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:23:47.144 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 3 msec}
+2023-03-11 17:23:47.147 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1632641076989603841) 
+ {executed in 1 msec}
+2023-03-11 17:23:47.154 INFO  jdbc.sqltiming Line:373 - UPDATE user SET userAccount='asdfasd', gender=0, userRole=1, userStatus=0, createTime='03/06/2023 
+15:15:40.000', updateTime='03/06/2023 15:15:40.000' WHERE id=1632641076989603841 AND isDelete=0 
+ {executed in 4 msec}
+2023-03-11 17:23:47.592 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:23:53.778 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:23:53.782 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1632641076989603841) 
+ {executed in 1 msec}
+2023-03-11 17:23:53.787 INFO  jdbc.sqltiming Line:373 - UPDATE user SET userAccount='asdfasd', gender=0, userRole=1, userStatus=0, createTime='03/06/2023 
+15:15:40.000', updateTime='03/06/2023 15:15:40.000' WHERE id=1632641076989603841 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:23:54.211 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:23:57.588 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:24:24.675 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:27:10.110 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:27:20.332 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:27:20.335 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1632641951267106817) 
+ {executed in 1 msec}
+2023-03-11 17:27:20.340 INFO  jdbc.sqltiming Line:373 - UPDATE user SET userAccount='sadfasdf', userRole=1, userStatus=1, createTime='03/06/2023 15:19:08.000', 
+updateTime='03/06/2023 15:19:08.000' WHERE id=1632641951267106817 AND isDelete=0 
+ {executed in 3 msec}
+2023-03-11 17:27:20.753 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:27:46.640 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:27:52.486 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:27:59.537 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:27:59.540 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = 1632641076989603841) 
+ {executed in 1 msec}
+2023-03-11 17:27:59.549 INFO  jdbc.sqltiming Line:373 - UPDATE user SET userAccount='asdfasd', gender=0, userRole=1, userStatus=1, createTime='03/06/2023 
+15:15:40.000', updateTime='03/06/2023 15:15:40.000' WHERE id=1632641076989603841 AND isDelete=0 
+ {executed in 5 msec}
+2023-03-11 17:27:59.951 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:28:24.187 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 2 msec}
+2023-03-11 17:30:14.392 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:30:22.698 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE userAccount='11111' AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:30:27.542 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:31:07.233 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:31:07.890 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 17:31:10.005 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 17:31:10.366 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:06:26.008 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (userAccount = 'aaaaaa' AND userPassword = 'b0dd3697a192885d7c055db46155b26a') 
+ {executed in 3 msec}
+2023-03-11 18:06:26.257 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:06:39.301 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 3 msec}
+2023-03-11 18:10:23.406 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:10:29.380 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:10:29.635 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:13:14.928 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:13:15.375 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:13:51.680 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:14:01.904 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:14:02.169 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:14:12.552 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:14:13.057 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:14:25.163 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 2 msec}
+2023-03-11 18:14:25.430 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:16:15.926 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:16:17.252 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:16:27.362 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:16:28.903 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 3 msec}
+2023-03-11 18:17:46.926 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:17:49.417 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:17:51.023 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:20:07.604 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:20:10.853 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:20:11.145 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 18:37:32.661 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:40:26.108 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:57:12.465 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 4 msec}
+2023-03-11 18:57:13.700 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:57:13.978 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 18:58:34.134 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 19:00:45.747 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:00:46.896 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 19:00:47.189 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:00:59.771 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 19:01:07.753 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-03-11 19:01:07.760 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-03-11 19:30:51.484 INFO  com.zhu.userapi.UserCenterApplication Line:55  - Starting UserCenterApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 16892 (D:\code\userCenter\target\classes started by ZHU in D:\code\userCenter)
+2023-03-11 19:30:51.489 INFO  com.zhu.userapi.UserCenterApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-03-11 19:30:51.540 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-11 19:30:51.540 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-11 19:30:52.434 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2023-03-11 19:30:52.435 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-03-11 19:30:52.436 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-03-11 19:30:52.436 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-11 19:30:52.439 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-03-11 19:30:52.447 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-11 19:30:52.447 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-03-11 19:30:52.447 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-11 19:30:52.511 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-03-11 19:30:52.511 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 970 ms
+2023-03-11 19:30:53.147 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-03-11 19:30:53.161 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-11 19:30:53.180 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-11 19:30:53.191 INFO  com.zhu.userapi.UserCenterApplication Line:61  - Started UserCenterApplication in 2.065 seconds (JVM running for 2.951)
+2023-03-11 19:31:13.323 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-11 19:31:13.323 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-03-11 19:31:13.324 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-03-11 19:31:23.027 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-03-11 19:31:23.169 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-03-11 19:31:23.197 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (userAccount = 'aaaaaa' AND userPassword = 'b0dd3697a192885d7c055db46155b26a') 
+ {executed in 11 msec}
+2023-03-11 19:31:23.247 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 2 msec}
+2023-03-11 19:31:29.629 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:32:19.064 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:32:36.055 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:32:36.767 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:35:24.529 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:38:20.872 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:38:22.920 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:38:23.337 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 0 msec}
+2023-03-11 19:38:41.825 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:38:42.524 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:38:58.272 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:40:39.178 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:47:22.273 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:47:24.702 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:47:25.085 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:47:30.347 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE id=1621407197515558914 AND isDelete=0 
+ {executed in 0 msec}
+2023-03-11 19:47:30.358 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 AND (id = NULL) 
+ {executed in 0 msec}
+2023-03-11 19:47:30.609 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:49:10.125 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:49:50.402 INFO  jdbc.sqltiming Line:373 - SELECT id,username,userAccount,avatarUrl,userPassword,gender,phone,email,userRole,userStatus,createTime,updateTime,isDelete 
+FROM user WHERE isDelete=0 
+ {executed in 1 msec}
+2023-03-11 19:56:46.981 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-03-11 19:56:46.989 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.

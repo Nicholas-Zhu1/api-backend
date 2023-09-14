@@ -1,0 +1,288 @@
+2023-09-10 09:40:11.471 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 24616 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 09:40:11.474 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 09:40:11.515 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-10 09:40:11.515 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-10 09:40:12.535 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 09:40:12.536 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 09:40:12.536 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 09:40:12.536 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 09:40:12.548 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 09:40:12.556 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 09:40:12.557 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 09:40:12.557 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 09:40:12.614 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 09:40:12.615 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 1100 ms
+2023-09-10 09:40:13.397 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 09:40:13.412 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 09:40:13.429 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 09:40:13.438 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 2.302 seconds (JVM running for 3.103)
+2023-09-10 09:40:21.869 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-10 09:40:21.869 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-09-10 09:40:21.870 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-09-10 09:40:22.022 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-09-10 09:40:22.369 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-09-10 10:03:02.602 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 10:03:31.865 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 10:04:30.044 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 10:05:06.027 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 10:05:10.712 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 10:05:12.975 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 10:06:43.487 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 10:10:54.164 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 10:14:59.856 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-09-10 10:14:59.862 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-09-10 10:15:03.838 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 21172 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 10:15:03.841 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 10:15:03.877 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-10 10:15:03.877 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-10 10:15:04.800 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 10:15:04.801 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 10:15:04.801 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 10:15:04.801 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 10:15:04.804 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 10:15:04.812 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:15:04.812 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 10:15:04.812 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 10:15:04.872 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 10:15:04.872 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 994 ms
+2023-09-10 10:15:05.602 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 10:15:05.615 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:15:05.631 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 10:15:05.639 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 2.131 seconds (JVM running for 2.849)
+2023-09-10 10:15:12.643 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-10 10:15:12.643 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-09-10 10:15:12.644 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 0 ms
+2023-09-10 10:15:12.767 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-09-10 10:15:13.073 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-09-10 10:17:24.062 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-09-10 10:17:24.068 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-09-10 10:17:27.399 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 26092 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 10:17:27.401 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 10:17:27.435 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-10 10:17:27.435 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-10 10:17:28.322 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 10:17:28.323 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 10:17:28.323 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 10:17:28.323 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 10:17:28.326 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 10:17:28.332 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:17:28.333 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 10:17:28.333 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 10:17:28.389 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 10:17:28.390 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 955 ms
+2023-09-10 10:17:29.115 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 10:17:29.129 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:17:29.145 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 10:17:29.153 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 2.057 seconds (JVM running for 2.702)
+2023-09-10 10:17:32.972 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-10 10:17:32.972 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-09-10 10:17:32.974 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 2 ms
+2023-09-10 10:17:33.092 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-09-10 10:17:33.334 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-09-10 10:31:38.548 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-09-10 10:31:38.554 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-09-10 10:31:42.984 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 13800 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 10:31:42.986 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 10:31:43.019 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-10 10:31:43.019 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-10 10:31:43.913 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 10:31:43.914 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 10:31:43.914 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 10:31:43.914 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 10:31:43.916 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 10:31:43.922 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:31:43.923 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 10:31:43.923 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 10:31:43.973 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 10:31:43.973 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 954 ms
+2023-09-10 10:31:44.728 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 10:31:44.742 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:31:44.758 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 10:31:44.766 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 2.078 seconds (JVM running for 2.724)
+2023-09-10 10:31:49.408 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-10 10:31:49.408 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-09-10 10:31:49.409 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-09-10 10:31:49.531 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-09-10 10:31:49.772 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-09-10 10:45:06.025 INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Line:211 - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2023-09-10 10:45:06.042 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Pausing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:45:06.042 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2023-09-10 10:45:06.043 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-10 10:45:06.048 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Stopping ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:45:06.050 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Destroying ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:45:06.052 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-09-10 10:45:06.059 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-09-10 10:45:06.140 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 13800 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 10:45:06.141 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 10:45:06.512 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 10:45:06.512 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 10:45:06.512 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 10:45:06.512 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 10:45:06.513 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 10:45:06.514 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:45:06.514 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 10:45:06.514 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 10:45:06.540 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 10:45:06.540 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 397 ms
+2023-09-10 10:45:06.569 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2023-09-10 10:45:06.578 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-10 10:45:08.079 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 13800 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 10:45:08.079 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 10:45:08.276 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 10:45:08.276 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 10:45:08.276 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 10:45:08.276 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 10:45:08.276 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 10:45:08.276 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:45:08.276 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 10:45:08.276 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 10:45:08.290 INFO  org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 10:45:08.290 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 208 ms
+2023-09-10 10:45:08.550 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 10:45:08.557 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:45:08.560 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 10:45:08.562 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 0.513 seconds (JVM running for 806.52)
+2023-09-10 10:45:08.564 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2023-09-10 10:47:10.828 INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Line:211 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-09-10 10:47:10.844 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Pausing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:10.844 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2023-09-10 10:47:10.847 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Stopping ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:10.848 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Destroying ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:10.934 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 13800 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 10:47:10.934 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 10:47:11.118 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 10:47:11.118 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 10:47:11.118 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 10:47:11.118 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 10:47:11.118 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 10:47:11.119 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:11.119 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 10:47:11.119 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 10:47:11.133 INFO  org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 10:47:11.134 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 197 ms
+2023-09-10 10:47:11.399 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 10:47:11.407 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:11.410 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 10:47:11.413 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 0.511 seconds (JVM running for 929.371)
+2023-09-10 10:47:11.415 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2023-09-10 10:47:12.833 INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Line:211 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-09-10 10:47:12.846 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Pausing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:12.846 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2023-09-10 10:47:12.850 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Stopping ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:12.850 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Destroying ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:12.911 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 13800 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 10:47:12.912 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 10:47:13.080 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 10:47:13.081 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 10:47:13.081 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 10:47:13.081 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 10:47:13.081 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 10:47:13.081 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:13.081 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 10:47:13.082 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 10:47:13.094 INFO  org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 10:47:13.094 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 180 ms
+2023-09-10 10:47:13.322 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 10:47:13.329 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 10:47:13.331 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 10:47:13.334 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 0.445 seconds (JVM running for 931.291)
+2023-09-10 10:47:13.335 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:63  - Condition evaluation unchanged
+2023-09-10 11:02:26.015 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 20460 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 11:02:26.018 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 11:02:26.058 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-10 11:02:26.058 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-10 11:02:26.997 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 11:02:26.998 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 11:02:26.998 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 11:02:26.998 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 11:02:27.001 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 11:02:27.007 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 11:02:27.008 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 11:02:27.008 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 11:02:27.064 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 11:02:27.064 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 1005 ms
+2023-09-10 11:02:27.795 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 11:02:27.808 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 11:02:27.823 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 11:02:27.831 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 2.125 seconds (JVM running for 2.867)
+2023-09-10 11:02:31.427 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-10 11:02:31.428 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-09-10 11:02:31.428 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 0 ms
+2023-09-10 11:02:31.509 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 11:04:01.127 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 11:04:05.579 INFO  com.zhu.userapi.service.impl.UserServiceImpl Line:51  - user register failed,userAccount or userPassword error
+2023-09-10 11:04:58.062 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 25012 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 11:04:58.064 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 11:04:58.100 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-10 11:04:58.100 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-10 11:04:58.999 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 11:04:58.999 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 11:04:59.000 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 11:04:59.000 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 11:04:59.002 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 11:04:59.008 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 11:04:59.009 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 11:04:59.009 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 11:04:59.060 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 11:04:59.060 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 959 ms
+2023-09-10 11:04:59.783 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 11:04:59.797 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 11:04:59.816 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 11:04:59.824 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 2.094 seconds (JVM running for 2.788)
+2023-09-10 11:05:06.280 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-10 11:05:06.280 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-09-10 11:05:06.281 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 1 ms
+2023-09-10 11:05:09.104 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-09-10 11:05:10.206 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-09-10 11:08:36.108 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-09-10 11:08:36.113 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-09-10 11:08:40.065 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 18156 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 11:08:40.067 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 11:08:40.101 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-10 11:08:40.101 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-10 11:08:40.992 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 11:08:40.993 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 11:08:40.993 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 11:08:40.993 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 11:08:40.996 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 11:08:41.003 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 11:08:41.003 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 11:08:41.003 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 11:08:41.056 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 11:08:41.057 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 955 ms
+2023-09-10 11:08:41.760 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 11:08:41.773 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 11:08:41.789 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 11:08:41.797 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 2.025 seconds (JVM running for 2.674)
+2023-09-10 11:08:47.975 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-10 11:08:47.975 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-09-10 11:08:47.975 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 0 ms
+2023-09-10 11:08:51.645 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-09-10 11:08:51.879 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2023-09-10 11:30:43.670 INFO  com.zaxxer.hikari.HikariDataSource Line:350 - HikariPool-1 - Shutdown initiated...
+2023-09-10 11:30:43.677 INFO  com.zaxxer.hikari.HikariDataSource Line:352 - HikariPool-1 - Shutdown completed.
+2023-09-10 11:30:47.735 INFO  com.zhu.userapi.UserApiApplication Line:55  - Starting UserApiApplication using Java 17.0.4.1 on LAPTOP-9RA645UK with PID 20492 (D:\zhu_api_backend\zhu-api-backend\target\classes started by ZHU in D:\zhu_api_backend\zhu-api-backend)
+2023-09-10 11:30:47.737 INFO  com.zhu.userapi.UserApiApplication Line:631 - No active profile set, falling back to 1 default profile: "default"
+2023-09-10 11:30:47.771 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-10 11:30:47.771 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-10 11:30:48.669 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8123 (http)
+2023-09-10 11:30:48.670 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-09-10 11:30:48.670 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-09-10 11:30:48.670 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-09-10 11:30:48.672 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-09-10 11:30:48.679 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8123"]
+2023-09-10 11:30:48.679 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2023-09-10 11:30:48.679 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-10 11:30:48.735 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring embedded WebApplicationContext
+2023-09-10 11:30:48.736 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:292 - Root WebApplicationContext: initialization completed in 964 ms
+2023-09-10 11:30:49.474 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:59  - LiveReload server is running on port 35729
+2023-09-10 11:30:49.487 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8123"]
+2023-09-10 11:30:49.503 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8123 (http) with context path '/api'
+2023-09-10 11:30:49.511 INFO  com.zhu.userapi.UserApiApplication Line:61  - Started UserApiApplication in 2.121 seconds (JVM running for 2.847)
+2023-09-10 11:30:53.057 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-10 11:30:53.058 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2023-09-10 11:30:53.058 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 0 ms
+2023-09-10 11:30:55.720 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2023-09-10 11:30:55.953 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.

@@ -1,0 +1,299 @@
+2023-09-14 11:30:25.160 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 11:30:28.299 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 1, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:29.335 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 2, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:30.388 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 3, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:31.438 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 4, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:32.487 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 5, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:33.542 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 6, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:34.595 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 7, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:35.648 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 8, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:36.723 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 9, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:37.746 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Dubbo will try to retry in 1000. Try times: 10, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:38.795 WARN  org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfiguration Line:?   -  [DUBBO] Failed to connect to nacos config server. Exceed retry max times.Try times: 11, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-34. This may be caused by , go to https://dubbo.apache.org/faq/5/34 to find instructions. 
+2023-09-14 11:30:39.817 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:176)
+2023-09-14 11:30:39.818 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-timer-3-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/java.lang.Thread.sleep(Native Method)
+ app//io.netty.util.HashedWheelTimer$Worker.waitForNextTick(HashedWheelTimer.java:600)
+ app//io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:496)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 11:30:40.880 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:136 - [NotifyCenter] Start destroying Publisher
+2023-09-14 11:30:40.880 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 11:30:40.880 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:153 - [NotifyCenter] Destruction of the end
+2023-09-14 11:30:40.881 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 12:38:57.110 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 12:39:00.156 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 12:39:00.157 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 12:39:02.201 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+2023-09-14 12:39:02.333 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:176)
+2023-09-14 12:39:03.324 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 12:39:03.324 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:136 - [NotifyCenter] Start destroying Publisher
+2023-09-14 12:39:03.325 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:153 - [NotifyCenter] Destruction of the end
+2023-09-14 12:39:03.325 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 20:29:26.899 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 20:29:29.806 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:29:29.807 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:29:32.510 WARN  org.apache.dubbo.config.ServiceConfig Line:?   -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-8. This may be caused by , go to https://dubbo.apache.org/faq/5/8 to find instructions. 
+2023-09-14 20:29:33.065 WARN  org.apache.dubbo.registry.nacos.NacosRegistry Line:?   -  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.0.105:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=dubbo-springboot-provider&background=false&bind.ip=192.168.0.105&bind.port=20880&category=configurators&check=false&connections=1&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=dubbo-springboot-provider&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=6620&qos.enable=true&register=false&release=3.1.8&revision=3.1.8&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timeout=300000&timestamp=1694694572236&version=1.0.0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-4. This may be caused by , go to https://dubbo.apache.org/faq/1/4 to find instructions. 
+2023-09-14 20:29:33.072 WARN  org.apache.dubbo.registry.client.AbstractServiceDiscovery Line:?   -  [DUBBO] No valid instance found, stop registering instance address to registry., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-12. This may be caused by , go to https://dubbo.apache.org/faq/1/12 to find instructions. 
+2023-09-14 20:30:49.539 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s916ms239µs).
+2023-09-14 20:39:23.158 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m28s634ms688µs500ns).
+2023-09-14 20:40:45.769 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 20:40:47.365 WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:62  - Unable to start LiveReload server
+2023-09-14 20:40:48.466 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:40:48.466 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:40:50.471 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8123 is already in use
+2023-09-14 20:40:50.623 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:176)
+2023-09-14 20:40:51.601 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 20:40:51.601 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:136 - [NotifyCenter] Start destroying Publisher
+2023-09-14 20:40:51.601 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:153 - [NotifyCenter] Destruction of the end
+2023-09-14 20:40:51.601 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 20:42:41.514 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 20:42:43.041 WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:62  - Unable to start LiveReload server
+2023-09-14 20:42:43.976 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:42:43.976 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:42:45.917 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8123 is already in use
+2023-09-14 20:42:46.048 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:176)
+2023-09-14 20:42:47.045 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 20:42:47.045 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:136 - [NotifyCenter] Start destroying Publisher
+2023-09-14 20:42:47.045 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:153 - [NotifyCenter] Destruction of the end
+2023-09-14 20:42:47.046 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 20:44:00.853 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 20:44:02.440 WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:62  - Unable to start LiveReload server
+2023-09-14 20:44:03.396 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:44:03.396 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:44:05.340 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8123 is already in use
+2023-09-14 20:44:05.470 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:176)
+2023-09-14 20:44:06.467 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 20:44:06.467 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:136 - [NotifyCenter] Start destroying Publisher
+2023-09-14 20:44:06.468 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:153 - [NotifyCenter] Destruction of the end
+2023-09-14 20:44:06.468 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 20:48:27.628 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 20:48:30.125 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:48:30.125 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:48:32.871 WARN  org.apache.dubbo.config.ServiceConfig Line:?   -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-8. This may be caused by , go to https://dubbo.apache.org/faq/5/8 to find instructions. 
+2023-09-14 20:48:33.403 WARN  org.apache.dubbo.registry.nacos.NacosRegistry Line:?   -  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.0.105:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=dubbo-springboot-provider&background=false&bind.ip=192.168.0.105&bind.port=20880&category=configurators&check=false&connections=1&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=dubbo-springboot-provider&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=23640&qos.enable=true&register=false&release=3.1.8&revision=3.1.8&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timeout=300000&timestamp=1694695712591&version=1.0.0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-4. This may be caused by , go to https://dubbo.apache.org/faq/1/4 to find instructions. 
+2023-09-14 20:48:33.412 WARN  org.apache.dubbo.registry.client.AbstractServiceDiscovery Line:?   -  [DUBBO] No valid instance found, stop registering instance address to registry., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-12. This may be caused by , go to https://dubbo.apache.org/faq/1/12 to find instructions. 
+2023-09-14 20:49:54.781 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s66ms465µs900ns).
+2023-09-14 20:52:47.863 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ java.base@17.0.4.1/sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:176)
+2023-09-14 20:52:47.863 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-timer-3-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/java.lang.Thread.sleep(Native Method)
+ app//io.netty.util.HashedWheelTimer$Worker.waitForNextTick(HashedWheelTimer.java:600)
+ app//io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:496)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.863 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.864 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.864 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.864 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.864 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.865 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.865 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-11] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.865 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.865 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.866 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.866 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:47.866 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-14 20:52:48.447 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 20:52:48.865 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:52:48.865 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:52:50.161 WARN  org.apache.dubbo.registry.nacos.NacosRegistry Line:?   -  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.0.105:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=dubbo-springboot-provider&background=false&bind.ip=192.168.0.105&bind.port=20880&category=configurators&check=false&connections=1&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=dubbo-springboot-provider&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=23640&qos.enable=true&register=false&release=3.1.8&revision=3.1.8&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timeout=300000&timestamp=1694695969770&version=1.0.0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-4. This may be caused by , go to https://dubbo.apache.org/faq/1/4 to find instructions. 
+2023-09-14 20:52:50.163 WARN  org.apache.dubbo.registry.client.AbstractServiceDiscovery Line:?   -  [DUBBO] No valid instance found, stop registering instance address to registry., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-12. This may be caused by , go to https://dubbo.apache.org/faq/1/12 to find instructions. 
+2023-09-14 20:52:53.485 WARN  com.alibaba.nacos.client.naming Line:74  - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-14 20:52:53.485 WARN  com.alibaba.nacos.client.naming Line:81  - [NamingHttpClientManager] Destruction of the end
+2023-09-14 20:52:53.486 WARN  com.alibaba.nacos.client.naming Line:74  - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-14 20:52:53.486 WARN  com.alibaba.nacos.client.naming Line:81  - [NamingHttpClientManager] Destruction of the end
+2023-09-14 20:52:53.487 WARN  com.alibaba.nacos.common.remote.client.grpc.GrpcClient Line:89  - [1694695969869_127.0.0.1_50977]Ignore error event,isRunning:false,isAbandon=false
+2023-09-14 20:52:53.772 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:136 - [NotifyCenter] Start destroying Publisher
+2023-09-14 20:52:53.772 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 20:52:53.773 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:153 - [NotifyCenter] Destruction of the end
+2023-09-14 20:52:53.773 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 20:52:53.816 WARN  com.alibaba.nacos.client.naming Line:74  - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-14 20:52:53.816 WARN  com.alibaba.nacos.client.naming Line:81  - [NamingHttpClientManager] Destruction of the end
+2023-09-14 20:52:53.816 WARN  com.alibaba.nacos.client.naming Line:74  - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-14 20:52:53.817 WARN  com.alibaba.nacos.client.naming Line:81  - [NamingHttpClientManager] Destruction of the end
+2023-09-14 20:52:53.819 WARN  com.alibaba.nacos.common.remote.client.grpc.GrpcClient Line:89  - [1694695968744_127.0.0.1_50973]Ignore error event,isRunning:false,isAbandon=false
+2023-09-14 20:55:58.321 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 20:56:01.399 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:56:01.399 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 20:56:04.042 WARN  org.apache.dubbo.config.ServiceConfig Line:?   -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-8. This may be caused by , go to https://dubbo.apache.org/faq/5/8 to find instructions. 
+2023-09-14 20:56:04.562 WARN  org.apache.dubbo.registry.nacos.NacosRegistry Line:?   -  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.0.105:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=dubbo-springboot-provider&background=false&bind.ip=192.168.0.105&bind.port=20880&category=configurators&check=false&connections=1&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=dubbo-springboot-provider&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=27304&qos.enable=true&register=false&release=3.1.8&revision=3.1.8&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timeout=300000&timestamp=1694696163769&version=1.0.0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-4. This may be caused by , go to https://dubbo.apache.org/faq/1/4 to find instructions. 
+2023-09-14 20:56:04.570 WARN  org.apache.dubbo.registry.client.AbstractServiceDiscovery Line:?   -  [DUBBO] No valid instance found, stop registering instance address to registry., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-12. This may be caused by , go to https://dubbo.apache.org/faq/1/12 to find instructions. 
+2023-09-14 21:52:54.198 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 21:52:54.198 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:136 - [NotifyCenter] Start destroying Publisher
+2023-09-14 21:52:54.198 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:153 - [NotifyCenter] Destruction of the end
+2023-09-14 21:52:54.199 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 21:56:10.170 WARN  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor Line:?   -  [DUBBO] No class annotated by Dubbo @Service was found under package [com.zhu.userapi], ignore re-scanned classes: 0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2023-09-14 21:56:12.527 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 21:56:12.528 WARN  org.apache.dubbo.common.config.ConfigurationUtils Line:?   -  [DUBBO] Config center was specified, but no config item found., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+2023-09-14 21:56:16.799 WARN  org.apache.dubbo.config.ServiceConfig Line:?   -  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 5-8. This may be caused by , go to https://dubbo.apache.org/faq/5/8 to find instructions. 
+2023-09-14 21:56:17.355 WARN  org.apache.dubbo.registry.nacos.NacosRegistry Line:?   -  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.0.105:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=dubbo-springboot-provider&background=false&bind.ip=192.168.0.105&bind.port=20880&category=configurators&check=false&connections=1&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=dubbo-springboot-provider&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=4656&qos.enable=true&register=false&release=3.1.8&revision=3.1.8&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timeout=300000&timestamp=1694699776495&version=1.0.0, dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-4. This may be caused by , go to https://dubbo.apache.org/faq/1/4 to find instructions. 
+2023-09-14 21:56:17.363 WARN  org.apache.dubbo.registry.client.AbstractServiceDiscovery Line:?   -  [DUBBO] No valid instance found, stop registering instance address to registry., dubbo version: 3.1.8, current host: 192.168.0.105, error code: 1-12. This may be caused by , go to https://dubbo.apache.org/faq/1/12 to find instructions. 
+2023-09-14 21:56:19.814 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 21:56:19.814 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:136 - [NotifyCenter] Start destroying Publisher
+2023-09-14 21:56:19.814 WARN  com.alibaba.nacos.common.notify.NotifyCenter Line:153 - [NotifyCenter] Destruction of the end
+2023-09-14 21:56:19.815 WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end

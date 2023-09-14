@@ -1,0 +1,560 @@
+2023-09-11 14:22:01.112 WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Line:208 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ((CTRL-CHAR, code 137)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ((CTRL-CHAR, code 137)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]]
+2023-09-11 14:26:40.066 WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Line:208 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=----WebKitFormBoundaryIRcTWzRmXB5j3LkL;charset=UTF-8' not supported]
+2023-09-11 14:27:42.131 WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver Line:208 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=----WebKitFormBoundaryhwE4QoQLl7DkO8xN;charset=UTF-8' not supported]
+2023-09-11 16:35:33.310 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m19s162ms401µs800ns).
+2023-09-11 16:50:12.395 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s919ms378µs500ns).
+2023-09-11 16:51:16.174 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s779ms405µs900ns).
+2023-09-11 16:52:21.368 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s194ms466µs700ns).
+2023-09-11 17:00:44.187 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s628ms802µs900ns).
+2023-09-11 17:01:39.015 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:01:48.105 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:01:56.402 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:02:12.803 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:02:42.905 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:03:13.006 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:04:42.602 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:04:51.596 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:04:59.796 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:05:16.195 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:05:46.300 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:06:16.400 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:06:46.505 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:09:19.378 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m708ms849µs400ns).
+2023-09-11 17:15:58.510 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.511 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-nioEventLoop-4-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.4.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.511 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-nioEventLoop-4-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.4.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.512 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-nioEventLoop-4-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.4.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.512 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-nioEventLoop-4-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.4.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.512 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-nioEventLoop-4-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.4.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.513 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.513 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.513 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.514 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.514 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.514 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.515 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-11] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.515 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.515 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.516 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [api] appears to have started a thread named [lettuce-eventExecutorLoop-1-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-09-11 17:15:58.948 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - No MyBatis mapper was found in '[com.zhu.userapi.mapper]' package. Please check your configuration.
+2023-09-11 17:29:44.575 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s85ms624µs100ns).
+2023-09-11 17:32:52.842 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m48s159ms550µs600ns).
+2023-09-11 17:32:52.888 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:33:05.599 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:33:13.879 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:33:30.282 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:34:00.376 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:34:30.477 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:35:00.576 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:35:30.675 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:36:00.785 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:36:30.876 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:37:00.984 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:37:31.079 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:38:01.183 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:38:31.277 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:39:01.378 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:39:31.478 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:40:01.576 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:40:31.680 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:41:01.777 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:41:31.878 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:42:01.977 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:42:32.075 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:43:02.190 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:47:10.978 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:47:19.985 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:47:28.281 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:47:44.681 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 17:48:07.842 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+2023-09-11 17:51:43.868 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+2023-09-11 17:53:38.742 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+2023-09-11 17:59:22.122 WARN  org.springframework.web.context.support.GenericWebApplicationContext Line:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+2023-09-11 18:11:26.893 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s588ms950µs200ns).
+2023-09-11 18:20:19.892 WARN  com.zaxxer.hikari.pool.HikariPool Line:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m52s930ms742µs800ns).
+2023-09-11 22:47:55.430 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:47:55.430 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:48:04.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:48:04.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:48:12.617 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:48:12.617 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:48:29.009 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:48:29.009 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:48:59.112 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:48:59.112 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:49:29.212 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:49:29.212 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:49:59.314 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:49:59.315 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:50:29.409 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:50:29.409 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:50:59.518 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:50:59.518 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:51:29.610 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:51:29.610 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:51:59.710 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:51:59.711 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:52:29.811 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:52:29.811 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:52:59.913 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:52:59.913 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:53:30.016 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:53:30.016 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:54:00.109 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:54:00.109 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:54:30.211 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:54:30.211 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:55:00.316 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:55:00.316 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:55:30.412 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:55:30.412 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:56:00.516 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:56:00.516 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:56:30.618 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:56:30.619 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:57:00.709 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:57:00.709 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:57:30.812 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:57:30.812 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:58:00.912 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:58:00.912 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:58:31.018 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:58:31.018 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:59:01.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:59:01.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:59:31.210 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 22:59:31.210 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:00:01.309 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:00:01.309 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:00:31.409 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:00:31.409 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:01:01.509 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:01:01.509 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:01:31.615 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:01:31.615 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:02:01.717 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:02:01.718 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:02:31.816 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:02:31.816 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:03:01.913 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:03:01.913 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:03:32.013 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:03:32.014 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:04:02.111 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:04:02.111 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:04:32.209 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:04:32.209 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:05:02.313 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:05:02.313 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:05:32.410 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:05:32.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:06:02.516 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:06:02.516 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:06:32.611 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:06:32.611 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:07:02.711 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:07:02.711 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:07:32.809 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:07:32.809 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:08:02.909 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:08:02.910 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:08:33.014 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:08:33.014 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:09:03.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:09:03.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:09:33.209 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:09:33.210 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:10:03.313 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:10:03.313 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:10:33.410 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:10:33.410 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:11:03.518 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:11:03.518 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:11:33.611 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:11:33.611 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:12:03.709 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:12:03.710 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:12:33.813 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:12:33.813 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:13:03.915 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:13:03.916 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:13:34.010 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:13:34.010 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:14:04.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:14:04.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:14:34.210 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:14:34.211 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:15:04.309 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:15:04.309 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:15:34.410 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:15:34.410 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:16:04.509 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:16:04.509 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:16:34.614 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:16:34.614 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:17:04.717 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:17:04.717 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:17:34.816 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:17:34.816 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:18:04.912 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:18:04.912 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:18:35.012 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:18:35.012 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:19:05.112 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:19:05.113 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:19:35.213 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:19:35.213 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:20:05.309 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:20:05.309 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:20:35.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:20:35.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:21:05.512 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:21:05.512 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:21:35.615 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:21:35.615 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:22:05.712 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:22:05.712 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:22:35.815 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:22:35.815 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:23:05.910 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:23:05.910 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:23:36.016 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:23:36.017 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:24:06.109 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:24:06.109 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:24:36.213 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:24:36.213 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:25:06.314 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:25:06.314 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:25:36.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:25:36.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:26:06.515 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:26:06.515 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:26:36.610 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:26:36.610 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:27:06.716 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:27:06.717 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:27:36.817 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:27:36.817 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:28:06.910 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:28:06.910 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:28:37.009 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:28:37.009 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:29:07.119 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:29:07.119 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:29:37.212 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:29:37.212 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:30:07.311 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:30:07.311 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:30:37.413 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:30:37.413 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:31:07.514 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:31:07.514 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:31:37.615 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:31:37.615 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:32:07.714 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:32:07.714 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:32:37.813 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:32:37.813 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:33:07.914 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:33:07.915 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:33:38.011 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:33:38.011 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:34:08.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:34:08.111 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:34:38.210 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:34:38.210 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:35:08.309 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:35:08.309 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:35:38.410 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:35:38.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:36:08.516 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:36:08.517 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:36:38.610 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:36:38.611 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:37:08.709 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:37:08.709 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:37:38.809 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:37:38.810 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:38:08.916 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:38:08.916 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:38:39.009 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:38:39.010 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:39:09.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:39:09.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:39:39.213 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:39:39.213 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:40:09.320 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:40:09.320 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:40:39.423 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:40:39.424 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:41:09.517 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:41:09.517 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:41:39.624 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:41:39.625 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:42:09.724 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:42:09.725 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:42:39.809 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:42:39.809 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:43:09.920 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:43:09.920 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:43:40.013 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:43:40.013 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:44:10.118 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:44:10.118 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:44:40.213 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:44:40.214 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:45:10.314 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:45:10.315 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:45:40.420 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:45:40.420 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:46:10.524 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:46:10.525 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:46:40.619 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:46:40.620 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:47:10.719 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:47:10.719 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:47:40.815 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:47:40.816 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:48:10.909 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:48:10.909 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:48:41.021 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:48:41.021 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:49:11.111 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:49:11.112 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:49:41.213 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:49:41.213 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:50:11.311 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:50:11.311 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:50:41.421 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:50:41.421 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:51:11.520 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:51:11.520 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:51:41.623 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:51:41.624 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:52:11.714 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:52:11.714 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:52:41.820 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:52:41.820 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:53:11.921 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:53:11.921 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:53:42.023 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:53:42.023 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:54:12.123 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:54:12.123 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:54:42.220 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:54:42.220 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:55:12.315 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:55:12.316 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:55:42.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:55:42.411 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:56:12.523 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:56:12.523 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:56:42.616 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:56:42.616 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:57:12.722 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:57:12.722 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:57:42.809 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:57:42.809 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:58:12.911 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:58:12.911 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:58:43.018 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:58:43.018 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:59:13.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:59:13.110 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:59:43.220 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+2023-09-11 23:59:43.221 WARN  io.lettuce.core.protocol.ConnectionWatchdog Line:151 - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
